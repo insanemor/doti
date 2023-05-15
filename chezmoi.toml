@@ -1,6 +1,0 @@
-[template]
-delimiters = ["<<", ">>"]
-
-[data]
-myhostname = "{{ osHostname }}"
-
