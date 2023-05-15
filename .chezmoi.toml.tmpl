@@ -6,4 +6,10 @@
   myhostname = "{{ .chezmoi.hostname }}"
 
 
+[[entry]]
+source = "{{ .chezmoi.hostname  }}/file"
+target = ".file.toml"
+template = true
+
+
 
