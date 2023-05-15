@@ -1,4 +1,4 @@
-{{ if eq .chezmoi.hostaname "fs-tools" }}
+{{ if eq .chezmoi.hostname "fs-tools" }}
 
 Esse arquivo e da fastshop
 
