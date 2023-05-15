@@ -3,16 +3,8 @@
   autoCommit = true
   autoPush = true
 
-[template]
-  delimiters = ["<<", ">>"]
-
 [data]
   myhostname = "{{ .chezmoi.hostname }}"
-
-[[entry]]
-source = "{{ .chezmoi.hostname  }}/dot_file.toml"
-target = ".file.toml"
-template = true
 
 
 
