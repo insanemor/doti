@@ -1,6 +1,13 @@
 [template]
   delimiters = ["<<", ">>"]
 
+[data.functions]
+osHostname = '''
+def osHostname():
+    import socket
+    return socket.gethostname()
+'''
+
 
 [data]
   myhostname = "{{ osHostname }}"
